@@ -20,3 +20,12 @@ No nosso exemplo teremos uma API que busca dados clínicos de pacientes (dados p
 0. Rode o comando `npm run sequelize:migrate` para gerar as tabelas;
 0. Rode o comando `npm run sequelize:seed` para criar dados de exemplo nas tabelas;
 0. Rode o comando `npm run dev` para rodar o projeto usando nodemon.
+
+### Próximos passos
+
+Aqui estão alguns assuntos que não foram abordados na aula, mas fica o desafio!
+
+0. Rode o DynamoDB localmente usando Docker e utilize-o para o desenvolvimento
+0. Faça o deploy da sua aplicação na AWS (pode ser até usando serverless e lambdas!)
+0. Monte um dashboard no ClousWatch para monitorar sua tabela no DynamoDB
+0. Monte uma estratégia para atualização do cache que não dependa apenas do TTL do DynamoDB
