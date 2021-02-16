@@ -29,3 +29,4 @@ Aqui estão alguns assuntos que não foram abordados na aula, mas fica o desafio
 0. Faça o deploy da sua aplicação na AWS (pode ser até usando serverless e lambdas!)
 0. Monte um dashboard no ClousWatch para monitorar sua tabela no DynamoDB
 0. Monte uma estratégia para atualização do cache que não dependa apenas do TTL do DynamoDB
+0. Quer deixar ainda mais performático? Que tal dar uma olhada no DAX (DynamoDB Accelerator)?
