@@ -1,0 +1,27 @@
+{
+  "name": "rs-dynamodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect=0.0.0.0 --max-old-space-size=512 api/index.js",
+    "sequelize:migrate": "sequelize db:migrate --env database",
+    "sequelize:seed": "sequelize db:seed:all --env database"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "ramda": "^0.27.1",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "faker": "^5.4.0",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}
