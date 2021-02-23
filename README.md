@@ -1,10 +1,18 @@
 ## [Template] Usando DynamoDB como cache para suas requisições
 
+<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
+
 *Esse repositório não contém o código finalizado e sim o template para dar início à aula.*
 
 Muitas vezes quando fazemos requisições para nossas APIs, precisamos buscar alguns dados demorados, muitas vezes de várias fontes diferentes até. Neste projeto veremos como podemos agregar as informações de resposta em uma tabela do DynamoDB, inclusive utilizando o recurso de TTL para excluir entradas mais antigas.
 
 No nosso exemplo teremos uma API que busca dados clínicos de pacientes (dados pessoais, exames e medicamentos) no banco relacional. Ao longo da aula adicionaremos um banco DynamoDB na frente para buscar esses dados de uma forma mais eficiente.
+
+## Expert
+
+| [<img src="https://avatars.githubusercontent.com/u/711732?s=460&u=6b1039f8a921c5733d92d13b2971c55157fee005&v=4" width="75px;"/>](https://github.com/askmon) |
+| :-: |
+|[André Spanguero Kanayama](https://github.com/askmon)|
 
 ### Requisitos
 
